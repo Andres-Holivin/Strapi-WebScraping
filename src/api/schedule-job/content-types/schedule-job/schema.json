@@ -1,0 +1,40 @@
+{
+  "kind": "collectionType",
+  "collectionName": "schedule_jobs",
+  "info": {
+    "singularName": "schedule-job",
+    "pluralName": "schedule-jobs",
+    "displayName": "ScheduleJob",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": false
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "EndPoint": {
+      "type": "string"
+    },
+    "CronJob": {
+      "type": "string"
+    },
+    "Enable": {
+      "type": "boolean"
+    },
+    "next_schedule": {
+      "type": "string"
+    },
+    "error": {
+      "type": "json"
+    },
+    "report": {
+      "type": "json"
+    },
+    "body": {
+      "type": "json"
+    },
+    "Name": {
+      "type": "string"
+    }
+  }
+}

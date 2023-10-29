@@ -1,0 +1,28 @@
+{
+  "kind": "collectionType",
+  "collectionName": "vessels",
+  "info": {
+    "singularName": "vessel",
+    "pluralName": "vessels",
+    "displayName": "vessel",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": false
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "IMO": {
+      "type": "string"
+    },
+    "Name": {
+      "type": "string"
+    },
+    "Callsign": {
+      "type": "string"
+    },
+    "MMSI": {
+      "type": "string"
+    }
+  }
+}
